@@ -1,10 +1,19 @@
 <!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <title>123e</title>
-</head>
+<html>
 <body>
-<p>你好</p>
+<meta charset="UTF-8">
+<button onclick="myFunction()">点击这里</button>
+<p id="demo"></p>
+<script type="text/javascript">
+    function myFunction(){
+        var x;
+        var txt="";
+        var person={fname:"Bill",lname:"Gates",age:"56"};
+
+        for(x in person)
+        {txt=txt+person[x];}
+        document.getElementById("demo").innerHTML=txt;
+    }
+</script>
 </body>
 </html>
