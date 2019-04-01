@@ -65,6 +65,7 @@ css中不要前面的圆圈 list-style=none;
 
 #图片引入
 &lt;img&gt;
+不用特别设置宽高，设置一个就可以按照原比例来
  
  属性 ：
  
@@ -93,8 +94,6 @@ method 发送数据的方式 get/post
 action 发送的地址 
 
 
-
-
 &lt;input type="text/password/submit/radio/checkbox/select  name="" &gt;
 默认选中 checked="checked"
 
@@ -113,6 +112,7 @@ name 数据名  后端收到 数据名=数据值
 
 加密 md5
 
+
 #meta
 <meta content="clothes" name="keywords">
   <meta content="this is the clothes you will like" name="description">
@@ -121,3 +121,21 @@ name 数据名  后端收到 数据名=数据值
   onfocus / onblur
   
   
+#行级元素/块级元素
+```1.行级元素：内容决定所占位置，不能改变宽高
+有：
+
+<span> <strong> <em>  <a> del
+2.块级元素：独占一行，可以通过css改变宽高
+
+<div> <p><h1-h6> <ul><form><address><ol><li>
+
+3.行级块元素   
+<img> 内容决定大小，可以改变宽高
+
+css可以更改，display:inline /block/ inline-block 
+凡事带有inline 的元素都有文字特性
+```
+#代码传到服务器    
+1.字母表示标签，化简
+2.去空格

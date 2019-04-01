@@ -1,0 +1,11 @@
+div{
+    color:#00ffff;
+    /*font-color:#00ffff;*/
+    /*font-size: 14px;*/
+    border: 10px solid black;
+    width: 0px;
+    height: 0px;
+    border-left-color: indianred;
+    border-top-color: transparent;
+    /*透明*/
+}
