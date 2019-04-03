@@ -135,6 +135,9 @@ name 数据名  后端收到 数据名=数据值
 
 css可以更改，display:inline /block/ inline-block 
 凡事带有inline 的元素都有文字特性
+
+position:absolute;
+float:left/right; 自动的设置为inline-block
 ```
 #代码传到服务器    
 1.字母表示标签，化简

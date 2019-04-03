@@ -1,0 +1,18 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+.right{
+    position: absolute;
+    right: 0;
+    width: 100px;
+    height: 100px;
+    background-color: #fcc;
+    opacity:0.5 ;
+}
+.left{
+    margin-right: 100px;
+    height: 100px;
+    background-color: #123;
+
+}

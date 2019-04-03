@@ -1,0 +1,79 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: arial;
+}
+
+.nav{
+    list-style: none;
+
+}
+
+.nav::after{
+    content:"";
+    display: block;
+    clear: both;
+}
+.nav .list-item{
+    float: left;
+    /*排成一行*/
+    margin:0  10px;
+    line-height: 30px;
+    height: 30px;
+    /*居中 line-height=height*/
+
+}
+.list-item a{
+    text-decoration: none;
+    height: 30px;
+    font-weight: bold;
+    color: #f40;
+    display: inline-block;
+    /*a标签行内元素，所以设成行级块元素，可以设置高度*/
+    padding: 0 5px;
+}
+.list-item:hover{
+    background-color: #f40;
+    border-radius:15px ;
+}
+
+.list-item a:hover{
+    color: #fff;
+}
+
+p{
+    width: 100px;
+    border: 1px solid black;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+.image{
+    width: 140px;
+    height: 70px;
+    border: 1px solid black;
+    background-image: url(tb.jpg);
+    background-size: 140px 70px ;
+    background-position: center center;
+
+
+    text-indent: 140px;
+    white-space: nowrap;
+    overflow: hidden;
+    /*替代文字设置 方法一 首行缩进，然后成一行，然后隐藏溢出*/
+
+
+}
+.image2 {
+    width: 140px;
+    height: 0px;
+    border: 1px solid black;
+    background-image: url(tb.jpg);
+    background-size: 140px 70px;
+    background-position: 50% 50%;
+    padding-top: 70px;
+    overflow: hidden;
+    /*替代文字设置 方法二  height 为0，然后设置内边距离上边的距离，溢出隐藏*/
+
+}
