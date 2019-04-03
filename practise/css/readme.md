@@ -61,12 +61,14 @@ cascading style sheet 层叠样式表
 ```
 1.父子选择器/派生 
 div span
+所有的儿子孙子
 
 2.直接子元素选择器
+只能选儿子，不能选孙子
 
 3.并列选择器 
 
-标签.class    &nbsp;&nbsp;  &nbsp;  div.demo 
+标签.class    div.demo 
 
 4.分组选择器
 
