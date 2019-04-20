@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<!--suppress ALL -->
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <titlse>node</titlse>
+</head>
+<body>
+<div>
+    <span>
+        <strong></strong>
+    </span>
+    <div>
+        <p></p>
+    </div>
+    <div></div>
+</div>
+<script>
+var list=document.getElementsByTagName("div")[0];
+
+//
+// function childList(parents)
+// {
+//
+//         if(parents.hasChildNodes())
+//          {
+//             return childList(parents.children);
+//
+//         }
+//         else {
+//             console.log(x);
+//             }
+//
+// }
+//
+//非递归
+// var child = list.firstChild;
+// while(child ){
+//     if(child.nodeType == 1){
+//         console.log( child );
+//     }
+//     child = child.nextSibling;
+// }
+//递归
+// function getChildren(parent){
+//    if(parent.nodeType==1) {console.log(parent.nodeName);}
+//     var childNodes=parent.childNodes;
+//     for(var i=0;i<childNodes.length;i++){
+//         getChildren(childNodes[i]);
+//     }}
+
+</script>
+</body>
+</html>

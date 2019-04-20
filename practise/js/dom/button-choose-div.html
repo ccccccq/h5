@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>three</title>
+    <!--<link rel="stylesheet" href="three.css">-->
+    <style>
+        .active{
+            background-color: #ffcccc;
+        }
+
+        button{
+            background-color: #00ffff;
+            height: 50px;
+            width:50px;
+
+        }
+        .content{
+            height: 100px;
+            width:100px;
+            border: 5px solid black ;
+            display: none;
+        }
+    </style>
+</head>
+<body>
+<div class="wrapper">
+    <button class="active">11</button>
+    <button>22</button>
+    <button>33</button>
+</div>
+<div class="container">
+    <div class="content" style="display: block">5</div>
+    <div class="content">2</div>
+    <div class="content">0</div>
+</div>
+
+<!--<ul>-->
+<!--<li>1</li>-->
+<!--<li>2</li>-->
+<!--<li>3</li>-->
+<!--</ul>-->
+<script>
+    var ctt=document.getElementsByClassName("content");
+    var btn=document.getElementsByTagName("button");
+    for(var i=0;i<btn.length;i++){
+        (function (j){
+                btn[j].onclick=function () {
+                    for(var m=0;m<btn.length;m++){
+                        btn[m].className="";
+                        ctt[m].style.display="none";
+                    }
+
+                    this.className="active";
+                    ctt[j].style.display="block";}}(i)
+        )
+
+    }
+</script>
+</body>
+</html>
