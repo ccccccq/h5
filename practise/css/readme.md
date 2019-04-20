@@ -25,7 +25,7 @@ cascading style sheet 层叠样式表
 #选择器
 **1.简单选择器**
 
-行间样式 1000 >id 100>class=属性 10 >标签 1 >通配符 0
+行间样式 1000 >id 100>class=属性 10 >标签 1 通配符 0
 
 权重最大 !imporant infinity  正无穷 
 
@@ -177,7 +177,7 @@ content：""  内容
 content:"";
 display:block;
 clear:both;}
-```
+```****
 
 
 

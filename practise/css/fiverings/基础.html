@@ -13,10 +13,80 @@
     <div class="yellow"></div>
     <div class="purple"></div>
     <div class="black"></div>
-
 </div>
-<form>
 
-</form>
+<script>
+
+    //阶乘
+    // var n =parseInt(window.prompt('input'));
+    // var mul=1;
+    // for(var i=1;i<n+1;i++){
+    //     mul *= i;
+    // }
+    // document.write(mul);
+
+
+    //斐波那契额数列 1 1 2 3 5 8 13
+    // var a=b=1;
+    // for(var i=0;i<n-2;i++){
+    //     c=a+b;
+    //     a=b;
+    //     b=c;
+    // }
+    // document.write(c);
+
+    //100以内质数
+    // var i,j;
+    // var count=0;
+    // for(i=2;i<101;i++){
+    //     for(j=1;j<=i;j++)
+    //     {
+    //         if ( i % j == 0)
+    //             count++;
+    //     }
+    //     if(count == 2)
+    //         document.write(i);
+    //      count=0;
+    // }
+
+    // 输入一串低于十位的数字，输出这串数字的中文大写。
+
+ //    function everyNum(){
+ //        var n=window.prompt('input');
+ //        var result=" ";
+ //        if(n.length<10) {
+ //        for (var i = 0; i < n.length; i++)
+ //        {result += transfer(n[i]);}}
+ //         else
+ //         { document.write("please input lower than 10");}
+ //
+ //         document.write( result[n.length]);
+ //    }
+ // function transfer(target){
+ //    switch(target) {
+ //        case "1":return "一";
+ //        case "2":return "二";
+ //        case "3":return "三";
+ //        case "4":return "四";
+ //        case "5":return "五";
+ //        case "6":return "六";
+ //        case "7":return "七";
+ //        case "8":return "八";
+ //        case "9":return "九";
+ //    }}
+
+function a(){
+    var num=100;
+    function b() {
+        num++;
+        console.log(num);
+    }
+    return b;
+}
+var demo=a();
+demo();
+demo();
+</script>
 </body>
+
 </html>
