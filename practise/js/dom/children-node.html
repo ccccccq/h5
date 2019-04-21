@@ -4,19 +4,26 @@
 <head>
     <meta charset="UTF-8">
     <titlse>node</titlse>
+    <style>
+        .example{
+            background-color: #ffcccc;
+            height: 100px;
+            width: 100px;
+        }
+    </style>
 </head>
 <body>
-<div>
-    <span>
-        <strong></strong>
-    </span>
-    <div>
-        <p></p>
-    </div>
-    <div></div>
-</div>
+<!--<div>-->
+    <!--<span>-->
+        <!--<strong></strong>-->
+    <!--</span>-->
+    <!--<div>-->
+        <!--<p></p>-->
+    <!--</div>-->
+    <!--<div></div>-->
+<!--</div>-->
 <script>
-var list=document.getElementsByTagName("div")[0];
+// var list=document.getElementsByTagName("div")[0];
 
 //
 // function childList(parents)
@@ -48,6 +55,25 @@ var list=document.getElementsByTagName("div")[0];
 //     for(var i=0;i<childNodes.length;i++){
 //         getChildren(childNodes[i]);
 //     }}
+
+    // 父节点（祖宗）
+// function retfather(elem,n){
+//     if(elem && n){
+//         elem=elem.parentElement;
+//         n--;
+//     }
+//      return elem;
+//
+// }
+// var string=document.getElementsByTagName("strong")[0];
+// 向html中添加
+//     var div = document.createElement("div");
+//     var p = document.createElement("p");
+//     div.setAttribute("class","example");
+//     p.setAttribute("class","slogen");
+//     p.innerHTML="213";
+//     document.body.appendChild(div);
+//     div.appendChild(p);
 
 </script>
 </body>
