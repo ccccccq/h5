@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>three-minutes-interval</title>
+    <style>
+        .text{
+            text-align: right;
+        }
+    </style>
+</head>
+<body>
+分<input   type="text"  class="text" value="0">
+秒<input   type="text"  class="text"  value="0">
+<script>
+    // var firstDate=new Date().getTime();
+    var input2=document.getElementsByTagName("input")[1];
+    var input1=document.getElementsByTagName("input")[0];
+    var time1=setInterval(function(){
+         if(input2.value<59)
+        input2.value =parseInt(input2.value)+1;
+        else  {
+               input1.value =parseInt(input1.value)+1;
+               input2.value=0;}
+
+        if(input1.value==3){
+            clearInterval(time1);
+        }
+    },10)
+
+</script>
+</body>
+</html>

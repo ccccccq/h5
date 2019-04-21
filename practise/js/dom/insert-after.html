@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>insert-after</title>
+</head>
+<body>
+<div>
+    <i></i>
+    <p></p>
+</div>
+<script>
+    var div=document.getElementsByTagName("div")[0];
+    var span=document.createElement("span");
+    var i=document.getElementsByTagName("i")[0];
+    var p=document.getElementsByTagName("p")[0];
+    Element.prototype.insertAfter=function(target,origin){
+        if(origin.nextElementSibling!=null){
+         var next2=origin.nextElementSibling;
+             this.insertBefore(target,next2);
+        }
+        else { this.appendChild(target);}
+    }
+
+</script>
+</body>
+</html>
