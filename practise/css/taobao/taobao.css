@@ -41,39 +41,39 @@
     color: #fff;
 }
 
-p{
-    width: 100px;
-    border: 1px solid black;
-    white-space: nowrap;
-    overflow: hidden;
-    text-overflow: ellipsis;
-}
+/*p{*/
+    /*width: 100px;*/
+    /*border: 1px solid black;*/
+    /*white-space: nowrap;*/
+    /*overflow: hidden;*/
+    /*text-overflow: ellipsis;*/
+/*}*/
 
-.image{
-    width: 140px;
-    height: 70px;
-    border: 1px solid black;
-    background-image: url(tb.jpg);
-    background-size: 140px 70px ;
-    background-position: center center;
-
-
-    text-indent: 140px;
-    white-space: nowrap;
-    overflow: hidden;
-    /*替代文字设置 方法一 首行缩进，然后成一行，然后隐藏溢出*/
+/*.image{*/
+    /*width: 140px;*/
+    /*height: 70px;*/
+    /*border: 1px solid black;*/
+    /*background-image: url(tb.jpg);*/
+    /*background-size: 140px 70px ;*/
+    /*background-position: center center;*/
 
 
-}
-.image2 {
-    width: 140px;
-    height: 0px;
-    border: 1px solid black;
-    background-image: url(tb.jpg);
-    background-size: 140px 70px;
-    background-position: 50% 50%;
-    padding-top: 70px;
-    overflow: hidden;
-    /*替代文字设置 方法二  height 为0，然后设置内边距离上边的距离，溢出隐藏*/
+    /*text-indent: 140px;*/
+    /*white-space: nowrap;*/
+    /*overflow: hidden;*/
+    /*!*替代文字设置 方法一 首行缩进，然后成一行，然后隐藏溢出*!*/
 
-}
+
+/*}*/
+/*.image2 {*/
+    /*width: 140px;*/
+    /*height: 0px;*/
+    /*border: 1px solid black;*/
+    /*background-image: url(tb.jpg);*/
+    /*background-size: 140px 70px;*/
+    /*background-position: 50% 50%;*/
+    /*padding-top: 70px;*/
+    /*overflow: hidden;*/
+    /*!*替代文字设置 方法二  height 为0，然后设置内边距离上边的距离，溢出隐藏*!*/
+
+/*}*/

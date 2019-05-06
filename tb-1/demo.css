@@ -1,0 +1,42 @@
+*{
+    margin:0;
+    padding: 0;
+    list-style: none;
+    text-decoration: none;
+}
+html,body{
+    height:100%;
+    width: 100%;
+    /*横向滚动条消失 */
+    overflow-x: hidden;
+}
+.wrapper{
+    height: 100%;
+    width: 100%;
+    background-color: #f4f4f4;
+}
+
+.wrapper .top-nav-wrap{
+    height: 105px;
+    width: 100%;
+    border:1px solid #000;
+}
+.wrapper .search-wrap{
+    width: 100%;
+    padding-top:24px;
+    height: 97px;
+    border:1px solid #000;
+}
+.wrapper .screen-nav{
+    width: 1190px;
+    height: 30px;
+    background-color: #f40;
+    margin: 0 auto;
+}
+.wrapper .screen-box{
+    width: 1190px;
+    height: 632px;
+    border: 1px solid green;
+    margin: 0 auto;
+
+}

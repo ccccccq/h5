@@ -74,7 +74,15 @@
 //     p.innerHTML="213";
 //     document.body.appendChild(div);
 //     div.appendChild(p);
+   var money=100;
+    function Father(){
 
+        this.makemoney=function(){
+            money++;
+            console.log(money);
+        }
+    }
+    var father = new Father();
 </script>
 </body>
 </html>
