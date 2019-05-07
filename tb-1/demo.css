@@ -8,31 +8,69 @@ html,body{
     height:100%;
     width: 100%;
     /*横向滚动条消失 */
+
     overflow-x: hidden;
 }
+/*整体*/
 .wrapper{
     height: 100%;
     width: 100%;
     background-color: #f4f4f4;
 }
 
+/*导航条*/
 .wrapper .top-nav-wrap{
-    height: 105px;
+    height: 36px;
     width: 100%;
     border:1px solid #000;
 }
+.wrapper .top-nav-wrap .top-nav{
+    width: 1190px;
+    height: 36px;
+    border: 1px solid #000;
+    margin: 0 auto;
+}
+.wrapper .top-nav-wrap .top-nav .top-nav-l{
+    float: left;
+}
+.wrapper .top-nav-wrap .top-nav .top-nav-r{
+    float: right;
+}
+.wrapper .top-nav-wrap .top-nav  ul li {
+    float: left;
+    margin-right: 7px;
+}
+.wrapper .top-nav-wrap .top-nav a{
+    font-size: 12px;
+    color: #6c6c6c;
+    line-height: 36px;
+    padding:0 6px;
+}
+.wrapper .top-nav-wrap .top-nav a:hover{
+    color: #f40;
+}
+.wrapper .top-nav-wrap .top-nav .china{
+    color: #3c3c3c;
+    line-height: 36px;
+    font-size: 12px;
+}
+
+
+    /*搜索区域*/
 .wrapper .search-wrap{
     width: 100%;
     padding-top:24px;
     height: 97px;
     border:1px solid #000;
 }
+/*屏幕导航条*/
 .wrapper .screen-nav{
     width: 1190px;
     height: 30px;
     background-color: #f40;
     margin: 0 auto;
 }
+/*展示区域*/
 .wrapper .screen-box{
     width: 1190px;
     height: 632px;
