@@ -22,12 +22,12 @@ html,body{
 .wrapper .top-nav-wrap{
     height: 36px;
     width: 100%;
-    border:1px solid #000;
+    /*border:1px solid #000;*/
 }
 .wrapper .top-nav-wrap .top-nav{
     width: 1190px;
     height: 36px;
-    border: 1px solid #000;
+    /*border: 1px solid #000;*/
     margin: 0 auto;
 }
 .wrapper .top-nav-wrap .top-nav .top-nav-l{
@@ -46,6 +46,9 @@ html,body{
     line-height: 36px;
     padding:0 6px;
 }
+.wrapper .top-nav-wrap .top-nav a.login{
+    color: #f40;
+}
 .wrapper .top-nav-wrap .top-nav a:hover{
     color: #f40;
 }
@@ -54,15 +57,119 @@ html,body{
     line-height: 36px;
     font-size: 12px;
 }
+.wrapper .top-nav-wrap .top-nav .bg-pic{
+    display: inline-block;
+    height:6px;
+    width: 6px;
+    background-image: url("./img/xsj.png");
+    background-size: 100% 100%;
+    vertical-align: middle;
+}
+.wrapper .top-nav-wrap .top-nav .bg-pic.xsj-pic{
+    background-image: url("./img/xsj.png");
+}
+.wrapper .top-nav-wrap .top-nav .bg-pic.shopCar-pic{
+    background-image: url("./img/gwc.png");
+    width: 12px;
+    height: 12px;
+
+}
+.wrapper .top-nav-wrap .top-nav .bg-pic.like-pic{
+    background-image: url("./img/like.png");
+    width: 12px;
+    height: 12px;
+}
+.wrapper .top-nav-wrap .top-nav .bg-pic.web-nav-pic{
+    background-image: url("./img/dhl1.png");
+    width: 8px;
+    height: 8px;
+}
+
+.wrapper .top-nav-wrap .top-nav .cut-off span{
+    line-height: 36px;
+}
 
 
-    /*搜索区域*/
+
+
+
+
+
+
+
+
+
+
+/*搜索区域*/
 .wrapper .search-wrap{
     width: 100%;
     padding-top:24px;
     height: 97px;
     border:1px solid #000;
+    background-color: #fff;
 }
+.wrapper .search-wrap .search-con{
+    width: 1190px;
+    height: 88px;
+    margin: 0 auto;
+    border:1px solid #000;
+}
+
+.wrapper .search-wrap .search-con .logo-box{
+    display: inline-block;
+    background-image: url("./img/tb.png");
+    background-size: 100% 100%;
+    width: 190px;
+    height: 80px;
+    border:1px solid #000;
+    vertical-align:top;
+
+}
+
+.wrapper .search-wrap .search-con .search-box{
+    display: inline-block;
+    width:630px;
+    height: 87px;
+    border:1px solid #000;
+    vertical-align:top;
+    margin-left: 50px;
+}
+.wrapper .search-wrap .search-con .search-box .search-t{
+    width: 630px;
+    height: 62px;
+    border:1px solid #000;
+}
+.wrapper .search-wrap .search-con .search-box .search-tab{
+
+}
+.wrapper .search-wrap .search-con .search-box .search-tab ul li {
+    float: left;
+} 
+.wrapper .search-wrap .search-con .search-box .search-panel{
+
+}
+
+
+.wrapper .search-wrap .search-con .code-box{
+    display: inline-block;
+    width: 76px;
+    height: 90px;
+    border:1px solid #000;
+    vertical-align:top;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
 /*屏幕导航条*/
 .wrapper .screen-nav{
     width: 1190px;

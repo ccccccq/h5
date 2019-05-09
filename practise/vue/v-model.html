@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>v-model</title>
+    <script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script>
+</head>
+<body>
+    <div id="root">
+        <span :data="name" :class="[a1,{'class2':flag}]" v-if="true">{{value}}</span>
+        {{changeName}}
+        <div v-for="item in message">{{item.title}}</div>
+        <button v-on:click="click1"></button>
+        <input v-on:keyup.enter="keyup1">
+        <input v-model="value">
+    </div>
+<script>
+        new Vue({
+        el:"#root",
+        data:{
+        name:"lkw",
+        a1:"class1",
+        flag:true,
+            value:12,
+            message:[
+                {
+                    title:18
+                },{
+                    title:20
+        }
+            ]
+        },
+        computed:{
+            changeName:function(){
+                    return this.name+123;
+                }
+            },
+            methods:{
+            click1:function (){
+               this.name="cq"
+            },
+            keyup1:function(){
+                alert("你真棒")
+            }
+            }
+    })
+    </script>
+</body>
+</html>
