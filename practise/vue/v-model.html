@@ -13,6 +13,7 @@
         <button v-on:click="click1"></button>
         <input v-on:keyup.enter="keyup1">
         <input v-model="value">
+        <div v-html="msg"> </div>
     </div>
 <script>
         new Vue({
@@ -22,6 +23,7 @@
         a1:"class1",
         flag:true,
             value:12,
+            msg:"<div>这是div{{a1}}</div>",
             message:[
                 {
                     title:18
@@ -35,6 +37,7 @@
                     return this.name+123;
                 }
             },
+            template: "<div>这是div{{a1}}</div>",
             methods:{
             click1:function (){
                this.name="cq"

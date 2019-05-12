@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>demo1</title>
+    <script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+        }
+        .wrapper{
+            width: 1190px;
+            margin: 0 auto;
+        }
+        .add-task input{
+            display: inline-block;
+            float: left;
+        }
+
+        ul{
+            float: right;
+        }
+        li{
+            float: left;
+            margin:5px;
+            list-style: none;
+            text-decoration: none;
+        }
+    </style>
+</head>
+<body>
+        <div class="wrapper">
+            <div class="add-task">
+                <h2>添加计划</h2>
+                <input v-model="message">
+                <br />
+                <span>{{num}}个任务未完成</span>
+                <ul>
+                    <li> <a href="#">所有任务</a></li>
+                    <li> <a href="#">未完成的任务</a></li>
+                    <li> <a href="#">完成的任务</a></li>
+                </ul>
+            </div>
+            <div class="task-list"></div>
+        </div>
+
+<script>
+    new Vue({
+        el:".wrapper",
+        data:{
+            message:null,
+            num:"5"
+        }
+        })
+</script>
+</body>
+</html>
