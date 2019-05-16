@@ -42,6 +42,55 @@
     // var a;
     // ({a}={a:1});
     // console.log(a);
+    // var [a,b,c,d,e]='hello';
+    // console.log(a,b,c,d,e);
+    <!--function move({x=0,y=0}={}){-->
+        <!--console.log(x,y);-->
+    <!--}-->
+    <!--move({x:3,y:8});-->
+    <!--move({x:3});-->
+    <!--move({});-->
+    <!--move();-->
+
+    <!--function move2({x,y}={x:0,y:0}) {-->
+        <!--console.log(x,y);-->
+
+    <!--}-->
+    <!--move2({x:3,y:8});-->
+    <!--move2({x:3});-->
+    <!--move2({});-->
+    <!--move2();-->
+    // var [x,y]=[1,2];
+    // [x,y]=[y,x];
+    // console.log(x,y);
+
+
+
+    // array.from()
+
+    // var arr={0:1,1:5,3:9,length:6};
+    // var arr1=Array.from(arr);
+    // console.log(arr1);
+    // var arr={0:1,1:5,3:9,length:6};
+    // var arr1=Array.from(arr,x=>x*x*x);
+    // alert(arr1);
+
+    //array.of()
+
+
+    for (let index of ['a', 'b'].keys()) {
+        console.log(index);
+    }
+    for (let elem of ['a', 'b'].values()) {
+       console.log(elem);
+    }
+    for (let [index, elem] of ['a', 'b'].entries()) {
+       console.log([index,elem]);
+    }
+
+
+
+
 </script>
 </body>
 </html>
