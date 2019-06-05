@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>ajax-1</title>
+</head>
+<body>
+<script>
+    var xml = null;
+    var data = 'username=eq';
+    if(window.XMLHttpRequest) {
+        var xml = new XMLHttpRequest();
+    }
+    else
+        var xml = new ActiveXObject('Microsoft.XMLHTTP');
+
+    // get
+    // xml.open('GET','getNews.php'+'?'+'data',true);
+
+    // send
+    // xml.open('POST','getNews.php',true);
+    // xml.setRequestHeader('contenttype','application/x-www-form-urlencoded');
+    // xml.send(data);
+
+    xml.send();
+    xml.onreadystatechange = function(){
+        if(xml.readyState == 4 && xml.status == 200)
+        {
+            console.log(xml.responseText);
+        }
+    }
+</script>
+</body>
+</html>
