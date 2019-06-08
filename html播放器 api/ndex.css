@@ -1,3 +1,7 @@
+*{
+    margin: 0;
+    padding: 0;
+}
 .container
 {
     width: 600px;
@@ -59,10 +63,8 @@
     color: #fff;
     line-height: 45px;
     padding: 0 20px;
-    /*display: none;*/
+    display: none;
     box-sizing: border-box;
-
-
 }
 .container .modal:hover .tool-bar{
     display: block;
@@ -70,3 +72,62 @@
 .container .iconfont{
     color: white;
 }
+.container .modal .time{
+    font-size: 12px;
+}
+.container .modal  .tool-bar .iconfont{
+    cursor:pointer;
+}
+.container .modal .tool-bar .iconquanping{
+    font-size: 24px;
+}
+.container .modal .toolbar .iconicon_set_up{
+    position:relative;
+    width: 27px;
+    height: 45px;
+    font-size: 20px;
+}
+.container .modal .toolbar .iconicon_set_up ul{
+    /*position: absolute;*/
+    /*list-style: none;*/
+    /*background: rgba(0,0,0,.5);*/
+    /*width: 100px;*/
+    /*height: 100px;*/
+    /*font-size: 12px;*/
+    position: absolute;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    background: rgba(0,0,0,.5);
+
+    bottom: 40px;
+    width: 50px;
+    left: -15px;
+    border-radius: 4px;
+
+    text-align: center;
+    font-size: 12px;
+    line-height: 3;
+    display: none;}
+
+.container .modal .tool-bar .iconicon_set_up:hover ul{
+    display: block;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
