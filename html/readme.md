@@ -103,7 +103,7 @@ action 发送的地址
 
 3.submit 默认的字是提交，修改值：value="" 
 
-4.radio 单选框  到一道题目中。归属到同一个name  值 value 
+4.radio 单选框  到一道题目中。归属到同一个name  值 value  
 
 5.checkbox  复选框
 name 数据名  后端收到 数据名=数据值 
