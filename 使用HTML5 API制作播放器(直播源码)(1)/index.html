@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/index.css">
+    <link rel="stylesheet" href="scripts/index.js">
+</head>
+
+<body>
+    <div class="container">
+        <video src="media/game.mp4"></video>
+        <!-- 朦层 -->
+        <div class="modal pause">
+            <i class="iconfont iconbofang1"></i>
+            <!-- 工具条 -->
+            <div class="tool-bar">
+                <!-- 进度条 -->
+                <div class="progress-bar">
+                    <!-- 进度条的播放进度背景 -->
+                    <div class="bg"></div>
+                    <!-- 滑块 -->
+                    <div class="slider"></div>
+                </div>
+
+                <!--控件-->
+                <i class="iconfont iconbofang left"></i>
+               <!--已播放的时间和总共的时间-->
+                <div class="left time">
+                    <span id="spancur"></span>
+                    /
+                    <span id="spantotal"></span>
+                </div>
+
+                <i class="iconfont iconquanping right"></i>
+                <div class="iconfont iconicon_set_up right">
+                    <ul>
+                        <li data-value="2">2</li>
+                        <li data-value="1.5">1.5</li>
+                        <li class="active" data-value="1.25">1.25</li>
+                        <li data-value="1">1</li>
+                        <li data-value="0.75">0.75</li>
+                        <li data-value="0.5">0.5</li>
+                    </ul>
+                </div>
+                <div class="iconfont iconyinliang right">
+                    <input id="volume" min="0" max="100" type="range">
+                </div>
+            </div>
+
+        </div>
+    </div>
+
+    <script src="scripts/index.js"></script>
+</body>
+
+</html>

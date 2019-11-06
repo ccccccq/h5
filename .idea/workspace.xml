@@ -1,0 +1,1087 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="0cb170c3-84df-494a-82f0-7391e8ae4f9f" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/webpack1/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/webpack1/package.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/webpack1/src/js/entry.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/webpack1/webpack.config.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/jquery/jquery-1.html" beforeDir="false" afterPath="$PROJECT_DIR$/jquery/jquery-1.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/jquery/juqery1.js" beforeDir="false" afterPath="$PROJECT_DIR$/jquery/juqery1.js" afterDir="false" />
+    </list>
+    <ignored path="$PROJECT_DIR$/.tmp/" />
+    <ignored path="$PROJECT_DIR$/temp/" />
+    <ignored path="$PROJECT_DIR$/tmp/" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FUSProjectUsageTrigger">
+    <session id="403972544">
+      <usages-collector id="statistics.lifecycle.project">
+        <counts>
+          <entry key="project.closed" value="101" />
+          <entry key="project.open.time.0" value="1" />
+          <entry key="project.open.time.1" value="12" />
+          <entry key="project.open.time.10" value="2" />
+          <entry key="project.open.time.11" value="3" />
+          <entry key="project.open.time.12" value="2" />
+          <entry key="project.open.time.13" value="1" />
+          <entry key="project.open.time.17" value="1" />
+          <entry key="project.open.time.2" value="3" />
+          <entry key="project.open.time.20" value="1" />
+          <entry key="project.open.time.3" value="3" />
+          <entry key="project.open.time.4" value="8" />
+          <entry key="project.open.time.5" value="16" />
+          <entry key="project.open.time.6" value="17" />
+          <entry key="project.open.time.7" value="18" />
+          <entry key="project.open.time.8" value="8" />
+          <entry key="project.open.time.9" value="5" />
+          <entry key="project.opened" value="101" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.open">
+        <counts>
+          <entry key="css" value="62" />
+          <entry key="html" value="114" />
+          <entry key="jpg" value="2" />
+          <entry key="js" value="22" />
+          <entry key="json" value="1" />
+          <entry key="md" value="33" />
+          <entry key="me" value="1" />
+          <entry key="php" value="3" />
+          <entry key="png" value="4" />
+          <entry key="rnc" value="1" />
+          <entry key="ts" value="4" />
+          <entry key="txt" value="3" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.open">
+        <counts>
+          <entry key="CSS" value="62" />
+          <entry key="HTML" value="114" />
+          <entry key="Image" value="6" />
+          <entry key="JSON" value="1" />
+          <entry key="JavaScript" value="22" />
+          <entry key="Markdown" value="32" />
+          <entry key="PHP" value="1" />
+          <entry key="PLAIN_TEXT" value="7" />
+          <entry key="RNG Compact" value="1" />
+          <entry key="TypeScript" value="4" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.edit">
+        <counts>
+          <entry key="css" value="7189" />
+          <entry key="html" value="23326" />
+          <entry key="js" value="8679" />
+          <entry key="md" value="6741" />
+          <entry key="php" value="6" />
+          <entry key="txt" value="281" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.edit">
+        <counts>
+          <entry key="CSS" value="7189" />
+          <entry key="HTML" value="23326" />
+          <entry key="JavaScript" value="8679" />
+          <entry key="Markdown" value="6741" />
+          <entry key="PHP" value="6" />
+          <entry key="PLAIN_TEXT" value="281" />
+        </counts>
+      </usages-collector>
+    </session>
+  </component>
+  <component name="FileEditorManager">
+    <leaf>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/webpack1/src/js/entry.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state>
+              <caret column="5" selection-start-column="5" selection-end-column="5" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/webpack1/index.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="150">
+              <caret line="10" column="7" selection-start-line="10" selection-start-column="7" selection-end-line="10" selection-end-column="7" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/webpack1/webpack.config.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="90">
+              <caret line="6" column="1" selection-start-line="6" selection-start-column="1" selection-end-line="6" selection-end-column="1" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/webpack1/out/index.js">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="CSS File" />
+        <option value="HTML File" />
+        <option value="JavaScript File" />
+      </list>
+    </option>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>content</find>
+      <find>arr</find>
+      <find>&lt;li&gt;</find>
+      <find>aRuleInfo</find>
+      <find>setRuleId</find>
+      <find>card</find>
+      <find>info</find>
+      <find>line</find>
+      <find>list</find>
+      <find>index</find>
+      <find>flag</find>
+      <find>each</find>
+      <find>first</find>
+      <find>bind</find>
+    </findStrings>
+    <replaceStrings>
+      <replace>str</replace>
+      <replace />
+    </replaceStrings>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/practise/js/dom/insert-after.html" />
+        <option value="$PROJECT_DIR$/practise/js/dom/date/date-1.html" />
+        <option value="$PROJECT_DIR$/practise/js/dom/date/setInterval.html" />
+        <option value="$PROJECT_DIR$/practise/css/taobao/taobao.css" />
+        <option value="$PROJECT_DIR$/practise/css/taobao/taobao.html" />
+        <option value="$PROJECT_DIR$/practise/tb/icon/css/font-awesome.css" />
+        <option value="$PROJECT_DIR$/practise/tb/index.html" />
+        <option value="$PROJECT_DIR$/practise/笔试题/prepare.html" />
+        <option value="$PROJECT_DIR$/practise/js/dom/children-node.html" />
+        <option value="$PROJECT_DIR$/practise/tb/style.css" />
+        <option value="$PROJECT_DIR$/tb-1/demo.css" />
+        <option value="$PROJECT_DIR$/tb-1/index.html" />
+        <option value="$PROJECT_DIR$/practise/1.html" />
+        <option value="$PROJECT_DIR$/practise/css/三栏布局/sl.html" />
+        <option value="$PROJECT_DIR$/practise/css/三栏布局/float.html" />
+        <option value="$PROJECT_DIR$/practise/vue/v-model.html" />
+        <option value="$PROJECT_DIR$/practise/vue/demo1.html" />
+        <option value="$PROJECT_DIR$/practise/css/三栏布局/sb.html" />
+        <option value="$PROJECT_DIR$/practise/css/三栏布局/sl.css" />
+        <option value="$PROJECT_DIR$/practise/js/test.html" />
+        <option value="$PROJECT_DIR$/practise/js/readme.md" />
+        <option value="$PROJECT_DIR$/practise/css/三栏布局/flex.html" />
+        <option value="$PROJECT_DIR$/practise/css/三栏布局/fl.html" />
+        <option value="$PROJECT_DIR$/practise/笔试题/sanlan.html" />
+        <option value="$PROJECT_DIR$/practise/css/三栏布局/double.html" />
+        <option value="$PROJECT_DIR$/practise/css3/flex.html" />
+        <option value="$PROJECT_DIR$/es6.0/readme.md" />
+        <option value="$PROJECT_DIR$/12334.html" />
+        <option value="$PROJECT_DIR$/ajax/getNews.php" />
+        <option value="$PROJECT_DIR$/ajax/get/getNews.php" />
+        <option value="$PROJECT_DIR$/ajax/ajax-1.html" />
+        <option value="$PROJECT_DIR$/practise/qa.html" />
+        <option value="$PROJECT_DIR$/ajax/get/cq.txt" />
+        <option value="$PROJECT_DIR$/使用HTML5 API制作播放器(直播源码)(1)/index.html" />
+        <option value="$PROJECT_DIR$/html播放器 api/ndex.css" />
+        <option value="$PROJECT_DIR$/html播放器 api/video.html" />
+        <option value="$PROJECT_DIR$/使用HTML5 API制作播放器(直播源码)(1)/css/index.css" />
+        <option value="$PROJECT_DIR$/practise/html/readme.md" />
+        <option value="$PROJECT_DIR$/es6.0/practise.html" />
+        <option value="$PROJECT_DIR$/ajax/get/ajaxget.html" />
+        <option value="$PROJECT_DIR$/test-copy.html" />
+        <option value="$PROJECT_DIR$/copy-test.js" />
+        <option value="$PROJECT_DIR$/handlebars/index.html" />
+        <option value="$PROJECT_DIR$/hwtest.html" />
+        <option value="$PROJECT_DIR$/swdada.js" />
+        <option value="$PROJECT_DIR$/jquery/juqery1.js" />
+        <option value="$PROJECT_DIR$/jquery/jquery-1.html" />
+        <option value="$PROJECT_DIR$/webpack1/index.html" />
+        <option value="$PROJECT_DIR$/webpack1/webpack.config1.js" />
+        <option value="$PROJECT_DIR$/webpack1/webpack.config.js" />
+        <option value="$PROJECT_DIR$/webpack1/src/js/entry.js" />
+      </list>
+    </option>
+  </component>
+  <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsGulpfileManager">
+    <detection-done>true</detection-done>
+    <sorting>DEFINITION_ORDER</sorting>
+  </component>
+  <component name="MavenProjectNavigator">
+    <treeState>
+      <expand />
+      <select />
+    </treeState>
+  </component>
+  <component name="NodeModulesDirectoryManager">
+    <handled-path value="$PROJECT_DIR$/webpack1/node_modules" />
+  </component>
+  <component name="NodePackageJsonFileManager">
+    <packageJsonPaths>
+      <path value="$PROJECT_DIR$/webpack1/package.json" />
+    </packageJsonPaths>
+  </component>
+  <component name="ProjectFrameBounds">
+    <option name="x" value="55" />
+    <option name="y" value="88" />
+    <option name="width" value="1319" />
+    <option name="height" value="734" />
+  </component>
+  <component name="ProjectInspectionProfilesVisibleTreeState">
+    <entry key="Project Default">
+      <profile-state>
+        <expanded-state>
+          <State />
+          <State>
+            <id>General</id>
+          </State>
+          <State>
+            <id>XPath</id>
+          </State>
+        </expanded-state>
+        <selected-state>
+          <State>
+            <id>Angular</id>
+          </State>
+        </selected-state>
+      </profile-state>
+    </entry>
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="h5" type="b2602c69:ProjectViewProjectNode" />
+              <item name="h5" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="h5" type="b2602c69:ProjectViewProjectNode" />
+              <item name="h5" type="462c0819:PsiDirectoryNode" />
+              <item name="jquery" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="h5" type="b2602c69:ProjectViewProjectNode" />
+              <item name="h5" type="462c0819:PsiDirectoryNode" />
+              <item name="webpack1" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="h5" type="b2602c69:ProjectViewProjectNode" />
+              <item name="h5" type="462c0819:PsiDirectoryNode" />
+              <item name="webpack1" type="462c0819:PsiDirectoryNode" />
+              <item name="out" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="h5" type="b2602c69:ProjectViewProjectNode" />
+              <item name="h5" type="462c0819:PsiDirectoryNode" />
+              <item name="webpack1" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="AndroidView" />
+      <pane id="Scope" />
+      <pane id="PackagesPane" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="DefaultHtmlFileTemplate" value="HTML File" />
+    <property name="SearchEverywhereHistoryKey" value="content=&quot;&quot;&#9;null&#9;null" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1573021498357" />
+    <property name="js.buildTools.gulp.gulp_package_dir" value="" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="list.type.of.created.stylesheet" value="CSS" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="nodejs_package_manager_path" value="npm" />
+    <property name="run.code.analysis.last.selected.profile" value="pProject Default" />
+    <property name="settings.editor.selected.configurable" value="settings.github" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/handlebars" />
+      <recent name="$PROJECT_DIR$" />
+      <recent name="$PROJECT_DIR$/ajax/get" />
+      <recent name="$PROJECT_DIR$/ajax" />
+      <recent name="$PROJECT_DIR$/tb-1/img" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/html播放器 api/media" />
+      <recent name="$PROJECT_DIR$/practise/tb/icon" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager" selected="JavaScript Debug.practise.html">
+    <configuration name="1.html" type="JavascriptDebugType" factoryName="JavaScript Debug" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/h5/1.html">
+      <method v="2" />
+    </configuration>
+    <configuration name="practise.html" type="JavascriptDebugType" factoryName="JavaScript Debug" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/h5/es6.0/practise.html">
+      <method v="2" />
+    </configuration>
+    <configuration name="video.html" type="JavascriptDebugType" factoryName="JavaScript Debug" temporary="true" nameIsGenerated="true" uri="http://localhost:8080/workcq/html播放器 api/video.html">
+      <method v="2" />
+    </configuration>
+    <configuration name="deepclone.js" type="NodeJSConfigurationType" factoryName="Node.js" temporary="true" nameIsGenerated="true" path-to-js-file="deepclone.js" working-dir="$PROJECT_DIR$/practise/js">
+      <method v="2" />
+    </configuration>
+    <configuration default="true" type="js.build_tools.gulp" factoryName="Gulp.js">
+      <node-interpreter>project</node-interpreter>
+      <node-options />
+      <gulpfile />
+      <tasks />
+      <arguments />
+      <envs />
+      <method v="2" />
+    </configuration>
+    <list>
+      <item itemvalue="JavaScript Debug.1.html" />
+      <item itemvalue="JavaScript Debug.video.html" />
+      <item itemvalue="JavaScript Debug.practise.html" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JavaScript Debug.practise.html" />
+        <item itemvalue="JavaScript Debug.video.html" />
+        <item itemvalue="JavaScript Debug.1.html" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="0cb170c3-84df-494a-82f0-7391e8ae4f9f" name="Default Changelist" comment="" />
+      <created>1553424163430</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1553424163430</updated>
+      <workItem from="1553424165938" duration="1393000" />
+      <workItem from="1553425849426" duration="1968000" />
+      <workItem from="1553436080158" duration="22000" />
+      <workItem from="1553500036025" duration="596000" />
+      <workItem from="1553746861893" duration="213000" />
+      <workItem from="1553747113844" duration="2388000" />
+      <workItem from="1553850250469" duration="1534000" />
+      <workItem from="1553933810348" duration="3366000" />
+      <workItem from="1554008962711" duration="4580000" />
+      <workItem from="1554040706255" duration="1650000" />
+      <workItem from="1554109408181" duration="14118000" />
+      <workItem from="1554175134704" duration="11667000" />
+      <workItem from="1554259757201" duration="1802000" />
+      <workItem from="1554276355716" duration="2535000" />
+      <workItem from="1554279519747" duration="1594000" />
+      <workItem from="1554360613679" duration="736000" />
+      <workItem from="1554640365151" duration="817000" />
+      <workItem from="1554724739271" duration="3653000" />
+      <workItem from="1554776987899" duration="473000" />
+      <workItem from="1554809858911" duration="4407000" />
+      <workItem from="1555121450184" duration="1305000" />
+      <workItem from="1555423950788" duration="587000" />
+      <workItem from="1555427821546" duration="369000" />
+      <workItem from="1555470178975" duration="101000" />
+      <workItem from="1555470968091" duration="512000" />
+      <workItem from="1555568323238" duration="128000" />
+      <workItem from="1555568484726" duration="77000" />
+      <workItem from="1555573980990" duration="58000" />
+      <workItem from="1555576194650" duration="5783000" />
+      <workItem from="1555678829674" duration="2192000" />
+      <workItem from="1555729668057" duration="3125000" />
+      <workItem from="1555732904538" duration="8727000" />
+      <workItem from="1555824914946" duration="7237000" />
+      <workItem from="1556167497648" duration="2417000" />
+      <workItem from="1557048054241" duration="2614000" />
+      <workItem from="1557121232670" duration="369000" />
+      <workItem from="1557130164496" duration="5210000" />
+      <workItem from="1557196204151" duration="3160000" />
+      <workItem from="1557218097358" duration="3618000" />
+      <workItem from="1557228040845" duration="3192000" />
+      <workItem from="1557237305984" duration="1586000" />
+      <workItem from="1557302270199" duration="536000" />
+      <workItem from="1557381943633" duration="2706000" />
+      <workItem from="1557392110083" duration="4761000" />
+      <workItem from="1557646504615" duration="1619000" />
+      <workItem from="1557813719317" duration="4816000" />
+      <workItem from="1557886564979" duration="2886000" />
+      <workItem from="1557973054973" duration="1622000" />
+      <workItem from="1558242652411" duration="4300000" />
+      <workItem from="1558264283414" duration="907000" />
+      <workItem from="1558277912851" duration="206000" />
+      <workItem from="1558490666851" duration="3129000" />
+      <workItem from="1558619965745" duration="495000" />
+      <workItem from="1558708111023" duration="124000" />
+      <workItem from="1558708669274" duration="57000" />
+      <workItem from="1558762321766" duration="417000" />
+      <workItem from="1559025779703" duration="4720000" />
+      <workItem from="1559096262731" duration="3031000" />
+      <workItem from="1559114410766" duration="521000" />
+      <workItem from="1559650141842" duration="1438000" />
+      <workItem from="1559700577179" duration="368000" />
+      <workItem from="1559701999025" duration="3551000" />
+      <workItem from="1559714135926" duration="4876000" />
+      <workItem from="1559799058671" duration="4185000" />
+      <workItem from="1559980909332" duration="1317000" />
+      <workItem from="1559983099970" duration="695000" />
+      <workItem from="1560839533118" duration="164000" />
+      <workItem from="1560839814801" duration="390000" />
+      <workItem from="1562035434280" duration="100000" />
+      <workItem from="1562061571973" duration="368000" />
+      <workItem from="1562246591280" duration="119000" />
+      <workItem from="1562752925859" duration="104000" />
+      <workItem from="1562898266546" duration="216000" />
+      <workItem from="1563239384495" duration="7000" />
+      <workItem from="1563784750919" duration="1000" />
+      <workItem from="1564037635548" duration="1618000" />
+      <workItem from="1564738280150" duration="329000" />
+      <workItem from="1566801224061" duration="274000" />
+      <workItem from="1566801958035" duration="4542000" />
+      <workItem from="1566869354621" duration="181000" />
+      <workItem from="1566890663444" duration="604000" />
+      <workItem from="1567991353968" duration="1000" />
+      <workItem from="1569409097678" duration="7229000" />
+      <workItem from="1571148018759" duration="5450000" />
+      <workItem from="1571384756293" duration="192000" />
+      <workItem from="1571385076516" duration="801000" />
+      <workItem from="1571724791477" duration="734000" />
+      <workItem from="1571725611056" duration="2738000" />
+      <workItem from="1571969533823" duration="18670000" />
+      <workItem from="1572228995279" duration="5434000" />
+      <workItem from="1572352495047" duration="630000" />
+      <workItem from="1572484394701" duration="3000" />
+      <workItem from="1572505808240" duration="663000" />
+      <workItem from="1572511498134" duration="571000" />
+      <workItem from="1572570780286" duration="5000" />
+      <workItem from="1572923597083" duration="9989000" />
+      <workItem from="1572946926917" duration="170000" />
+      <workItem from="1573004057891" duration="4087000" />
+    </task>
+    <task id="LOCAL-00001" summary="点击取得名字">
+      <created>1553425919868</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1553425919868</updated>
+    </task>
+    <task id="LOCAL-00002" summary="基础标签">
+      <created>1553768766881</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1553768766881</updated>
+    </task>
+    <task id="LOCAL-00003" summary="基础标签">
+      <created>1554024661347</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1554024661348</updated>
+    </task>
+    <task id="LOCAL-00004" summary="css标签 盒子  居中样式等">
+      <created>1554131535466</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1554131535466</updated>
+    </task>
+    <task id="LOCAL-00005" summary="css标签 盒子  居中样式等">
+      <created>1554279428475</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1554279428475</updated>
+    </task>
+    <task id="LOCAL-00006" summary="css标签 盒子  居中样式等">
+      <created>1554279806993</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1554279806993</updated>
+    </task>
+    <task id="LOCAL-00007" summary="js">
+      <created>1555730829019</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1555730829019</updated>
+    </task>
+    <task id="LOCAL-00008" summary="unique">
+      <created>1555732825671</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1555732825671</updated>
+    </task>
+    <task id="LOCAL-00009" summary="一个字符串中第一个出现的（字符串去重）">
+      <created>1555741845249</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1555741845249</updated>
+    </task>
+    <task id="LOCAL-00010" summary="一个字符串中第一个出现的（字符串去重）">
+      <created>1555771031200</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1555771031200</updated>
+    </task>
+    <task id="LOCAL-00011" summary="改变html">
+      <created>1555829954794</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1555829954794</updated>
+    </task>
+    <task id="LOCAL-00012" summary="定时器">
+      <created>1555834522766</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1555834522766</updated>
+    </task>
+    <task id="LOCAL-00013" summary="tb练习 -主要框架">
+      <created>1557144062857</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1557144062857</updated>
+    </task>
+    <task id="LOCAL-00014" summary="tb练习 -导航栏ing">
+      <created>1557199448643</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1557199448644</updated>
+    </task>
+    <task id="LOCAL-00015" summary="vue 指令 &amp; 三栏布局（float、position、flex）">
+      <created>1557411401237</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1557411401237</updated>
+    </task>
+    <task id="LOCAL-00016" summary="vue 指令 &amp; 三栏布局（float、position、flex）">
+      <created>1557670852073</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1557670852073</updated>
+    </task>
+    <task id="LOCAL-00017" summary="vue 指令 &amp; 三栏布局（float、position、flex）">
+      <created>1557890966384</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1557890966384</updated>
+    </task>
+    <task id="LOCAL-00018" summary="es6.0">
+      <created>1557890985779</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1557890985779</updated>
+    </task>
+    <task id="LOCAL-00019" summary="es6.0">
+      <created>1557981045917</created>
+      <option name="number" value="00019" />
+      <option name="presentableId" value="LOCAL-00019" />
+      <option name="project" value="LOCAL" />
+      <updated>1557981045917</updated>
+    </task>
+    <task id="LOCAL-00020" summary="css-sanlan &amp; flex">
+      <created>1558277952688</created>
+      <option name="number" value="00020" />
+      <option name="presentableId" value="LOCAL-00020" />
+      <option name="project" value="LOCAL" />
+      <updated>1558277952688</updated>
+    </task>
+    <task id="LOCAL-00021" summary="html播放器 模版学习">
+      <created>1559705681574</created>
+      <option name="number" value="00021" />
+      <option name="presentableId" value="LOCAL-00021" />
+      <option name="project" value="LOCAL" />
+      <updated>1559705681574</updated>
+    </task>
+    <task id="LOCAL-00022" summary="html播放器 自写">
+      <created>1559720268259</created>
+      <option name="number" value="00022" />
+      <option name="presentableId" value="LOCAL-00022" />
+      <option name="project" value="LOCAL" />
+      <updated>1559720268260</updated>
+    </task>
+    <task id="LOCAL-00023" summary="html播放器 自写">
+      <created>1559981219516</created>
+      <option name="number" value="00023" />
+      <option name="presentableId" value="LOCAL-00023" />
+      <option name="project" value="LOCAL" />
+      <updated>1559981219516</updated>
+    </task>
+    <task id="LOCAL-00024" summary="测试整个文件上传是否会覆盖掉">
+      <created>1564738430811</created>
+      <option name="number" value="00024" />
+      <option name="presentableId" value="LOCAL-00024" />
+      <option name="project" value="LOCAL" />
+      <updated>1564738430812</updated>
+    </task>
+    <task id="LOCAL-00025" summary="测试整个文件上传是否会覆盖掉">
+      <created>1571986939314</created>
+      <option name="number" value="00025" />
+      <option name="presentableId" value="LOCAL-00025" />
+      <option name="project" value="LOCAL" />
+      <updated>1571986939314</updated>
+    </task>
+    <option name="localTasksCounter" value="26" />
+    <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="231546000" />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="55" y="88" width="1319" height="734" extended-state="0" />
+    <editor active="true" />
+    <layout>
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.22866093" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info id="Favorites" order="2" side_tool="true" />
+      <window_info id="Image Layers" order="3" />
+      <window_info id="Designer" order="4" />
+      <window_info id="UI Designer" order="5" />
+      <window_info id="Capture Tool" order="6" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.32957748" />
+      <window_info anchor="bottom" id="Run" order="2" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" order="8" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Terminal" order="9" weight="0.3120482" />
+      <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
+      <window_info anchor="bottom" id="File Transfer" order="11" visible="true" weight="0.32866243" />
+      <window_info anchor="bottom" id="Database Changes" order="12" show_stripe_button="false" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Palette" order="3" />
+      <window_info anchor="right" id="Theme Preview" order="4" />
+      <window_info anchor="right" id="Capture Analysis" order="5" />
+      <window_info anchor="right" id="Palette&#9;" order="6" />
+      <window_info anchor="right" id="Database" order="7" />
+      <window_info anchor="right" id="Maven Projects" order="8" weight="0.32925585" />
+    </layout>
+    <layout-to-restore>
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.12966879" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info id="Favorites" order="2" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Run" order="2" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" order="8" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Terminal" order="9" weight="0.3120482" />
+      <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
+      <window_info anchor="bottom" id="File Transfer" order="11" visible="true" weight="0.32866243" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+    </layout-to-restore>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="UnknownFeatures">
+    <option featureType="com.intellij.fileTypeFactory" implementationName="*.php" />
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="点击取得名字" />
+    <MESSAGE value="基础标签" />
+    <MESSAGE value="css标签 盒子  居中样式等" />
+    <MESSAGE value="js" />
+    <MESSAGE value="unique" />
+    <MESSAGE value="一个字符串中第一个出现的（字符串去重）" />
+    <MESSAGE value="改变html" />
+    <MESSAGE value="定时器" />
+    <MESSAGE value="tb练习 -主要框架" />
+    <MESSAGE value="tb练习 -导航栏ing" />
+    <MESSAGE value="vue 指令 &amp; 三栏布局（float、position、flex）" />
+    <MESSAGE value="es6.0" />
+    <MESSAGE value="css-sanlan &amp; flex" />
+    <MESSAGE value="html播放器 模版学习" />
+    <MESSAGE value="html播放器 自写" />
+    <MESSAGE value="测试整个文件上传是否会覆盖掉" />
+    <option name="LAST_COMMIT_MESSAGE" value="测试整个文件上传是否会覆盖掉" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="javascript">
+          <url>file://$PROJECT_DIR$/hwtest.html</url>
+          <line>17</line>
+          <option name="timeStamp" value="3" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="javascript">
+          <url>file://$PROJECT_DIR$/hwtest.html</url>
+          <line>27</line>
+          <option name="timeStamp" value="4" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/practise/css/taobao/tb.jpg" />
+    <entry file="file://$PROJECT_DIR$/css/taobao/taobao.html">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/css/taobao/taobao.css">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ajax/post/ajaxpost.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="780">
+          <caret line="52" column="9" selection-start-line="52" selection-start-column="9" selection-end-line="52" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/jsencrypt.min.js">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ajax/post/post.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="7" column="9" selection-start-line="7" selection-start-column="9" selection-end-line="7" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ajax/get/getNews.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="330">
+          <caret line="22" selection-start-line="22" selection-end-line="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/使用HTML5 API制作播放器(直播源码)(1)/icon.html">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/使用HTML5 API制作播放器(直播源码)(1)/video.html">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/使用HTML5 API制作播放器(直播源码)(1)/笔记.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor />
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/使用HTML5 API制作播放器(直播源码)(1)/scripts/index.js">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/使用HTML5 API制作播放器(直播源码)(1)/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="16" column="20" selection-start-line="16" selection-start-column="19" selection-end-line="16" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/html播放器 api/ndex.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1725">
+          <caret line="115" selection-start-line="115" selection-end-line="115" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/使用HTML5 API制作播放器(直播源码)(1)/css/index.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="247">
+          <caret line="138" column="1" selection-start-line="138" selection-start-column="1" selection-end-line="138" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/html/readme.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="1575">
+            <caret line="105" column="41" selection-start-line="105" selection-start-column="41" selection-end-line="105" selection-end-column="41" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/es6.0/readme.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="345">
+            <caret line="23" column="33" selection-start-line="23" selection-start-column="33" selection-end-line="23" selection-end-column="33" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tb/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="12" column="21" selection-start-line="12" selection-start-column="21" selection-end-line="12" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/es6.0/practise.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="795">
+          <caret line="53" selection-start-line="53" selection-end-line="53" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/html播放器 api/video.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="270">
+          <caret line="18" column="52" selection-start-line="18" selection-start-column="52" selection-end-line="18" selection-end-column="52" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tb/style.css">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js/dom/button-choose-div.html">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js/dom/children-node.html">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js/dom/insert-after.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="10" column="6" selection-start-line="10" selection-start-column="6" selection-end-line="10" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/1.html">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/vue/demo1.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="10" column="9" selection-start-line="10" selection-start-column="9" selection-end-line="10" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/vue/v-model.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="390">
+          <caret line="26" column="21" selection-start-line="26" selection-start-column="21" selection-end-line="26" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ajax/get/ajaxget.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="330">
+          <caret line="22" column="9" selection-start-line="22" selection-start-column="9" selection-end-line="22" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/css3/flex.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="390">
+          <caret line="26" column="16" selection-start-line="26" selection-start-column="16" selection-end-line="26" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/css/readme.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="2190">
+            <caret line="146" column="21" selection-start-line="146" selection-start-column="21" selection-end-line="146" selection-end-column="21" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ajax/ajax-post&amp;get.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="8" column="13" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/handlebars/handlebars.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="228">
+          <caret line="824" column="64" selection-start-line="824" selection-start-column="64" selection-end-line="824" selection-end-column="64" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/handlebars/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="633">
+          <caret line="45" column="15" selection-start-line="45" selection-start-column="15" selection-end-line="45" selection-end-column="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/html/h5结构认知.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret selection-end-line="20" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/swdada.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1350">
+          <caret line="90" column="22" selection-start-line="90" selection-start-column="22" selection-end-line="90" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/hwtest.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="61">
+          <caret line="13" column="14" selection-start-line="13" selection-start-column="14" selection-end-line="13" selection-end-column="14" />
+          <folding>
+            <marker date="1571148411778" expanded="true" signature="1444:1464" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test-copy.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="9" column="7" selection-start-line="9" selection-start-column="7" selection-end-line="9" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js/test.html">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js/readme.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor />
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js/arrayunique.js">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/copy-test.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30270">
+          <caret line="2018" column="33" selection-start-line="2018" selection-start-column="33" selection-end-line="2018" selection-end-column="33" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js/first-one-show.js">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$APPLICATION_HOME_DIR$/plugins/JavaScriptLanguage/jsLanguageServicesImpl/external/lib.dom.d.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="221">
+          <caret line="2031" column="13" selection-start-line="2031" selection-start-column="13" selection-end-line="2031" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$APPLICATION_HOME_DIR$/plugins/JavaScriptLanguage/jsLanguageServicesImpl/external/lib.es5.d.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="278">
+          <caret line="867" column="26" selection-start-line="867" selection-start-column="26" selection-end-line="867" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/jquery/juqery1.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="348">
+          <caret line="267" selection-start-line="267" selection-end-line="267" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/jquery/jquery-1.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret selection-end-column="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/webpack1/webpack.config.js">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/webpack1/package-lock.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="179">
+          <caret line="108" column="33" lean-forward="true" selection-start-line="108" selection-start-column="33" selection-end-line="108" selection-end-column="33" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/webpack1/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="10" column="7" selection-start-line="10" selection-start-column="7" selection-end-line="10" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/webpack1/webpack.config.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="6" column="1" selection-start-line="6" selection-start-column="1" selection-end-line="6" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/webpack1/out/index.js">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/webpack1/src/js/entry.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="5" selection-start-column="5" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+  </component>
+</project>
