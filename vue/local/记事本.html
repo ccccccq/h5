@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>记事本</title>
+    <script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script>
+    <style>
+        img{
+            width:10px;
+            height: 10px;
+        }
+    </style>
+    <!--新增 删除 统计 清空 隐藏-->
+</head>
+<body>
+    <div id="app">
+        <input type="text" v-model="message" @keyup.enter="addLine">
+        <ul>
+            <li  v-for="(item,index) in textLine">{{index+1}}{{item}} <img src="取消.png" @click="del(index)"></li>
+        </ul>
+        <h2 v-show="textLine.length>0">{{textLine.length}}</h2>
+        <input type="button"  v-show="textLine.length>0" @click="clearAll">
+    </div>
+<script>
+    var app = new Vue({
+        el:"#app",
+        data:{
+            textLine:["学习","吃饭","打游戏"],
+            message:null,
+        },
+        methods:{
+            addLine:function(){
+                this.textLine.push(this.message);
+            },
+            del:function(index){
+                this.textLine.splice(index,1);
+            },
+            clearAll:function(){
+                this.textLine=[];
+            }
+        }
+    })
+</script>
+</body>
+</html>

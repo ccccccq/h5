@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>v-for</title>
+    <script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script>
+    <!--(item,index) in arr  -->
+    <!--item in arr -->
+</head>
+<body>
+<div id="app">
+    <ul>
+        <li v-for="(item,index) in arr">{{index+1}}你好{{item}}</li>
+    </ul>
+    <ul>
+        <li v-for="(it,index) in food" >{{index+1}}你好{{it.name}}</li>
+    </ul>
+    <input type="button" @click="add">
+    <input type="button" @click="remove">
+
+</div>
+<script>
+    var app = new Vue({
+        el:"#app",
+        data:{
+           arr:["北京","上海","广州","深圳"],
+            food:[{name:"番茄炒蛋"},{name:"西红柿"},{name:"韭菜"}]
+        },
+        methods: {
+          add:function(){
+              this.food.push({name:"香蕉"});
+          },
+            remove:function(){
+              this.food.shift();
+            }
+        }
+    })
+</script>
+</body>
+</html>

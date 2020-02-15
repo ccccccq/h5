@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>v-if</title>
+    <script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script>
+
+</head>
+<body>
+<div id="img">
+    <input type="button" value ="切换显示状态" @click="changeIsShow">
+
+    <img src="1.png" v-if="istrue">
+    <h2 v-if="temperature>=39">热死了</h2>
+</div>
+<script>
+    var img = new Vue({
+        el:"#img",
+        data:{
+            istrue:false,
+            temperature:34
+        },
+        methods:{
+            changeIsShow:function(){
+                this.istrue = !this.istrue;
+            }}
+    })
+</script>
+</body>
+</html>

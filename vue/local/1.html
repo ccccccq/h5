@@ -10,8 +10,12 @@
          {{ message }}
         <h2> {{school.name}}{{school.mobile}}</h2>
         <ul>
-            <li>{{campu[i]}}</li>
+            <li>{{campus[i]}}</li>
         </ul>
+        <input type="button"  value="v-on指令" v-on:click="dolt">
+        <input type="button"  value="v-on指令" @click="dolt">
+        <input type="button"  value="v-on指令" @dblclick="dolt">
+        <h2 @click="changefood">{{food}}</h2>
     </div>
 <script>
     var app = new Vue({
@@ -22,8 +26,18 @@
                 name:"陈淇",
                 mobile:"1876811"
             },
-            campus:["学校","上海"]
-        }
+            campus:["学校","上海"],
+            food:"白菜"
+        },
+        methods: {
+            dolt: function () {
+                alert("123");
+            },
+            changefood:function(){
+                this.food += "好吃！"
+            }
+        },
+
     })
     //el
 </script>

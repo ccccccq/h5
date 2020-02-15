@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>图片切换</title>
+    <script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script>
+
+</head>
+<body>
+    <div id="app">
+        <img :src="imgLine[index]">
+        <a href="#" @click="previous" v-show="index!=0">上一张</a>
+        <a href="#" @click="next" v-show="index<imgLine.length-1">下一张</a>
+        <!--第一张只显示下一张，最后一张只显示上一张-->
+    </div>
+<script>
+        var app = new Vue({
+            el: "#app",
+            data: {
+                imgLine: ["1.png","2.png","3.png","4.png"],
+                index:0
+            },
+            methods: {
+                next:function(){
+                   this.index++;
+                },
+                previous:function(){
+                    this.index--;
+
+                }
+            }
+        })
+</script>
+</body>
+</html>

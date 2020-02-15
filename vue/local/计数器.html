@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>计数器</title>
+    <script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script>
+</head>
+<body>
+      <div id="num">
+          <button @click="less">-</button>
+          <span> {{num}} </span>
+          <button @click="more">+</button>
+      </div>
+
+      <script>
+      var num = new Vue({
+      el:"#num",
+      data:{
+      num:"1"
+      },
+      methods:{
+         less:function(){
+             if(this.num>1)
+             this.num --;
+      },
+      more:function(){
+             if(this.num<10)
+            this.num ++;
+         }
+      }
+      })
+      </script>
+</body>
+</html>

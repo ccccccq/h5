@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>v-model</title>
+    <script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script>
+</head>
+<body>
+     <div id="root">
+         <input type="button" value="惦记我" @click="setV">
+     <input type="text" placeholder="请输入" v-model="message" @keyup.enter="getV">
+         <h2 >{{message}}</h2>
+     </div>
+<script>
+    var app = new Vue({
+        el:"#root",
+        data:{
+            message:"加油"
+        },
+        methods:{
+            getV:function(){
+                alert(this.message);
+            },
+            setV:function(){
+                this.message="新的我";
+            }
+        }
+    })
+</script>
+</body>
+</html>

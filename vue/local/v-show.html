@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>v-show</title>
+    <script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script>
+
+</head>
+<body>
+    <div id="img">
+        <input type="button" value ="切换显示状态" @click="changeIsShow">
+
+        <img src="1.png" v-show="istrue">
+        <h2 v-if="template>=39">热死了</h2>
+    </div>
+<script>
+    var img = new Vue({
+      el:"#img",
+        data:{
+                istrue:false ,
+                template:25
+            },
+            methods:{
+          changeIsShow:function(){
+                  this.istrue = !this.istrue;
+          }}
+    })
+</script>
+</body>
+</html>
