@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>播放器</title>
+
+    <!-- 请求地址：https://autumnfish.cn/search-->
+    <!--歌曲url获取 https://autumnfish.cn/song/url 入参：id-->
+    <!--歌曲封面设置 https://autumnfish.cn/song/detail 入参：ids-->
+    <style>>
+        .show{
+            border: 1px solid black;
+        }
+        .picSrc {
+            float: left;
+            margin-top: -70%;
+            width:100%;
+        }
+        .start{
+            width: 20px;
+        }
+        li{
+            list-style: none;
+        }
+
+    </style>
+    <!--歌曲搜索 歌曲播放 歌曲封面 歌曲评论 播放动画 mv播放-->
+</head>
+<body>
+    <div id="app">
+        <input type="text" @keyup.enter="searchMusic" v-model="message">
+        <ul>
+            <li class="show" v-for="(item,index) in arr" @click="ShowPicAndSong(index)">{{index+1}}{{item.name}}</li>
+
+        </ul>
+        <audio class="songLine" controls="" autoplay="" loop   :src="songUrl" type="audio/mpeg" ></audio>
+        <img  class="picSrc" :src="picSrc">
+    </div>
+    <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script>
+    <script src="main.js"></script>
+</body>
+</html>

@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>天知道</title>
+    <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script>
+
+    <!--1.回车查询 2.点击查询-->
+    <style>
+        .list{
+            border: 1px solid black;
+            display: block;
+            float:left;
+        }
+        .noStyle li{
+            list-style: none;
+            float:left;
+        }
+    </style>
+</head>
+<body>
+<div id="app">
+    <input type="text" @keyup.enter="getMess" v-model="city">
+    <input type="button" value="搜索"  @click="getMess" >
+    <ul class="noStyle">
+        <li @click="clickPlaceB">北京 </li>
+        <li @click="clickPlaceS">上海 </li>
+    </ul>
+    <ul class="list">
+        <li v-for="item in arr">{{item.type}}   {{item.low}}  {{item.date}}</li>
+    </ul>
+</div>
+<script src="main.js"></script>
+</body>
+</html>

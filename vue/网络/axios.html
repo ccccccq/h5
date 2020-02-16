@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>网络应用</title>
+    <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script>
+</head>
+<body>
+    <!--随即笑话请求地址：https://autumnfish.cn/api/joke/list-->
+    <!--用户注册https://autumnfish.cn/api/user/reg-->
+    <!--随机获取一条笑话 ：https://autumnfish.cn/api/joke-->
+     <div id="app">
+         <input type="button" value="get" @click="getCli">
+         <p>{{jokes}}</p>
+         <input type="button" value="post" @click="postCli">
+     </div>
+<script>
+    var app = new Vue({
+        el:"#app",
+        data:{
+           jokes:"哈哈"
+        },
+        methods:{
+            getCli:function(){
+                var that = this;
+             axios.get("https://autumnfish.cn/api/joke").then(function(response){
+                   that.jokes = response.data
+             },function(err){
+             console.log(err)
+             })
+            },
+            postCli:function () {
+                axios.post("https://autumnfish.cn/api/user/reg",{username:"chenzhang"}).then(function(response){
+                   console.log(response);
+                },function(err){
+                    console.log(err);
+                })
+            }
+        }
+    })
+</script>
+</body>
+</html>
