@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>select</title>
+    <script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script>
+    <style>
+        .greycolor{
+            color: grey;
+        }
+    </style>
+</head>
+<body>
+<form >
+    <p>choose your lovest city</p>
+    <select name="city">
+        <option> beijing</option>
+        <option>shanghai</option>
+        <option>sichuan</option>
+        <!--可以添加属性value，以value的值为准-->
+    </select>
+    <input type="submit">
+</form>
+
+<input  class="ss" type="text"  @click="onfocus1" @blur="onblur1" v-model="message" :class={greycolor:grey}>
+<script>
+     var data = new Vue({
+         el: ".ss",
+         data:{
+             message:'请输入',
+             grey:true
+         },
+         methods:{
+             onfocus1:function(){
+                 this.message='';
+                 this.grey=false;
+             },
+             onblur1:function(){
+                this.message='请输入',
+                    this.grey=true;
+             }
+         }
+     })
+</script>
+</body>
+</html>

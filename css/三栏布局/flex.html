@@ -2,37 +2,44 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>Title</title>
+    <title>flex</title>
     <style>
         *{
-            margin: 0;
-            padding: 0;
-        }
-        .wrapper{
-            display: flex;
-
+            margin: 0px;
+            padding: 0px;
         }
         .left,.right{
-            width:300px;
-            height: 300px;
-            background-color: #ffcccc;
+            width: 200px;
+            height: 100px;
+            background-color: pink;
+            opacity: 0.5;
+        }
+        .left{
+            float: left;
+        }
+        .right{
+            float: right;
+        }
+        #wrapper{
+            display: flex;
         }
         .middle{
-            /*width: 300px;*/
-            height: 300px;
-            background: #00ffff;
-            flex:1;
+            background-color: #112233;
+            flex: 1;
+            text-align: center;
+            line-height: 100px;
+            color: white;
         }
-
     </style>
 </head>
 <body>
-<div class="wrapper">
-    <div class="left"></div>
+   <div id="wrapper">
+       <div class="left"></div>
+       <div class="middle">
+           flex
+       </div>
+       <div class="right"></div>
 
-    <div  class="middle">2112121313123423423453 erferwfwcrrerwe</div>
-    <div class="right"></div>
-
-</div>
+   </div>
 </body>
 </html>
